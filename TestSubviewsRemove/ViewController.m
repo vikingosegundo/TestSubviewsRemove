@@ -102,8 +102,6 @@
                                       usingBlock:^(id view, NSUInteger idx, BOOL *stop) 
      {
          if ([view isKindOfClass:[UIImageView class]]){
-             //[self.view.subviews removeObject:view];
-             //or:
              [view removeFromSuperview];
              *stop=YES;
          }
