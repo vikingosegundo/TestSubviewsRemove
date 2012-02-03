@@ -56,8 +56,8 @@
     [button1 addTarget:self action:@selector(removeImageViewUsingBlock:) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button2 setFrame:CGRectMake(110, 0, 100, 44)];
-    [button2 setTitle:@"remove f.enum" forState:0];
+    [button2 setFrame:CGRectMake(110, 0, 150, 44)];
+    [button2 setTitle:@"remove enumerated" forState:0];
     [button2 addTarget:self action:@selector(removeImageViewUsingReveredFastEnumeration:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:button1];
